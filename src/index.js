@@ -2,6 +2,7 @@ import $ from "jquery";
 import React, { Component, createRef } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import Custom from "./custom";
 
 window.jQuery = $;
 window.$ = $;
@@ -60,4 +61,4 @@ class FormBuilder extends Component {
   }
 }
 
-ReactDOM.render(<FormBuilder />, document.getElementById("root"));
+ReactDOM.render(<FormBuilder/>, document.getElementById("root"));
